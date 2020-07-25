@@ -1,20 +1,20 @@
-import React, {Component} from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {Home} from './Home';
-import {About} from './About';
-import {PrivacyPolicy} from './PrivacyPolicy';
-import {Contact} from './Contact';
-import {NoMatch} from './NoMatch';
-import {Layout} from './Components/Layout';
-import {NavigationBar} from './Components/NavigationBar';
-import {Jumbotron} from './Components/Jumbotron';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Home } from './Home';
+import { About } from './About';
+import { PrivacyPolicy } from './PrivacyPolicy';
+import { Contact } from './Contact';
+import { NoMatch } from './NoMatch';
+import { Layout } from './Components/Layout';
+import { NavigationBar } from './Components/NavigationBar';
+import { Jumbotron } from './Components/Jumbotron';
 
-class App extends Component{
-  render(){
-    return (      
+class App extends Component {
+  render() {
+    return (
       <React.Fragment>
-        <NavigationBar/>
-        <Jumbotron/>
+        <NavigationBar />
+        <Jumbotron />
         <Layout>
           <Router>
             <Switch>
@@ -26,7 +26,7 @@ class App extends Component{
             </Switch>
           </Router>
         </Layout>
-      </React.Fragment>      
+      </React.Fragment>
     );
   }
 }
