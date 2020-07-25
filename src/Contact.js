@@ -1,12 +1,22 @@
 import React from 'react';
+import { Form, Button } from 'react-bootstrap';
 
-export const Contact = () => (
-  <div>
-    <h2>Contact us</h2>
-    <p>
-      It’s a debate that’s been going on for more than a decade, with many
-      swearing by either side. But, there is a right answer, and it’s not quite
-      as clear cut as many would hope.
-    </p>
-  </div>
-);
+export const Contact = () => {
+  handleSubmit = () => {};
+  return (
+    <Form>
+      <Form.Group controlId="exampleForm.ControlInput1">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control required type="email" placeholder="name@example.com" />
+      </Form.Group>
+
+      <Form.Group controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Example textarea</Form.Label>
+        <Form.Control as="textarea" rows="3" />
+      </Form.Group>
+      <Button type="submit" onSubmit={handleSubmit}>
+        Submit form
+      </Button>
+    </Form>
+  );
+};

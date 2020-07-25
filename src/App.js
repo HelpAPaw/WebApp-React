@@ -21,7 +21,7 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
               <Route path="/privacypolicy" component={PrivacyPolicy} />
-              <Route path="/contact" component={Contact} />
+              <Route path="/contactus" component={Contact} />
               <Route component={NoMatch} />
             </Switch>
           </Router>
