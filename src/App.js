@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
 import { About } from './About';
 import { PrivacyPolicy } from './PrivacyPolicy';
-import { Contact } from './Contact';
+import { Contact } from './Components/Contact';
 import { NoMatch } from './NoMatch';
 import { Layout } from './Components/Layout';
 import { NavigationBar } from './Components/NavigationBar';
@@ -30,12 +30,5 @@ class App extends Component {
     );
   }
 }
-// function App() {
-//   return (
-//     <div className="App">
-//       Test
-//     </div>
-//   );
-// }
 
 export default App;
