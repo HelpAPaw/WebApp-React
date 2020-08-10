@@ -23,7 +23,7 @@ const Overlay = styled.div`
   z-index: -1;
 `;
 
-export const Jumbotron = () => (
+const Jumbotron = () => (
   <JumboContainer fluid>
     <Overlay />
     <Container>
@@ -32,3 +32,5 @@ export const Jumbotron = () => (
     </Container>
   </JumboContainer>
 );
+
+export default Jumbotron;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const About = () => (
+const About = () => (
   <div>
     <h2>About page</h2>
     <p>
@@ -56,3 +56,5 @@ export const About = () => (
     <p>Here is an example plain text email:</p>
   </div>
 );
+
+export default About;
