@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import FAQPage_data from './data/FAQPage_data.js';
 import styled from 'styled-components';
 
